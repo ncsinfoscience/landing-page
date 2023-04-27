@@ -1,0 +1,88 @@
+body{
+    background-image: url(IMAGECSS.jpg); 
+    background-size: cover; 
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+img{
+    display: block;
+    margin: 20px 0px 0px 150px;
+    max-height: 10%;
+    max-width: 10%;
+}
+   
+   
+
+h1{
+    font-size: 50px;
+    text-align: center; 
+    margin-top: 40px;
+}
+
+span{
+    color:orangered
+}
+
+
+.primeiroparagrafo{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin:40px 0px 0px 0px;
+}
+
+
+.terceiroparagrafo{
+   font-size:30px;
+   text-align: center;
+   font-style: italic;
+   font-family:Georgia, Times, 'Times New Roman', serif;
+   margin: 40px 30px 80px 0px;
+}
+
+
+.botao{
+    display: block;
+    width: 150px;
+    height: 45px;
+    background-color:rgba(255,60,0,1.0);
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+    position: fixed;
+    margin: -30px 0px 0px 600px;
+}
+
+.botao:hover{
+    opacity: 0.7;
+}
+
+ul{
+    list-style: none;
+    margin: 80px 0px 0px 1100px;
+    padding-top: 50px;
+}
+
+li{
+display:inline;
+}
+
+ul li a{
+    color: orangered;
+    text-decoration: none;
+    font-size: 40px;
+    text-align: right;
+    padding: 5px;
+}
+
+ul li a:hover{
+    opacity: 0.7;
+}
